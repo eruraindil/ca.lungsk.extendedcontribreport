@@ -238,11 +238,11 @@ class CRM_Extendedcontribreport_Form_Report_ExtendedContributionReport extends C
             'options' => CRM_Contribute_PseudoConstant::contributionPage(),
             'type' => CRM_Utils_Type::T_INT,
           ),
-					'source' => array(
-						'title' => ts('Source'),
-						'operator' => 'like',
+          'source' => array(
+            'title' => ts('Source'),
+            'operator' => 'like',
             'type' => CRM_Utils_Type::T_STRING,
-					),
+          ),
           'payment_instrument_id' => array(
             'title' => ts('Payment Type'),
             'operatorType' => CRM_Report_Form::OP_MULTISELECT,
